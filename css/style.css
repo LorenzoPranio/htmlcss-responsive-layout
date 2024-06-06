@@ -60,7 +60,7 @@ header{
 .col-100{
     width: 100%;
     height: 100px;
-    margin: 10px 20px;
+    margin: 10px 15px;
     padding: 20px;
     background-color: blueviolet;
     border-radius: 10px;
@@ -109,8 +109,28 @@ header{
 
 /*SCREEN 768PX RULES*/
 
+@media screen and (min-width: 768px){
+    .col-md-33{
+        width: calc( 100% / 3 - 30px );
+    }
+    .col-md-66{
+        width: calc( 100% / 3 * 2 - 30px);
+    }
+    .col-md-50{
+        width: calc( 50% - 30px );
+    }
+    .col-md-60{
+        width: calc( 60% - 30px );
+    }
+    .col-md-40{
+        width: calc( 40% - 30px );
+    }
+}
 
 /*SCREEN 1200PX RULES*/
+
+@media screen and (min-width: 1200px){
+}
 
 /*.mobile-menu{
     display: none;
