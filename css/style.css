@@ -42,13 +42,13 @@ header{
 }
 
 .unstyled-menu li{
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
 
 .unstyled-menu li a{
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .desktop-menu{
@@ -125,22 +125,36 @@ header{
     .col-md-40{
         width: calc( 40% - 30px );
     }
+    .dim-700{
+        width: 700px;
+    }
 }
 
 /*SCREEN 1200PX RULES*/
 
 @media screen and (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    .desktop-menu{
+        display: block;
+    }
+    .col-lg-30{
+        width: calc( 30% - 30px );
+    }
+    .col-lg-33{
+        width: calc( 100% / 3 - 30px );
+    }
+    .col-lg-50{
+        width: calc( 50% - 30px );
+    }
+    .col-lg-70{
+        width: calc( 70% - 30px );
+    }
+    .dim-1080{
+        width: 1080px;
+    }
 }
-
-/*.mobile-menu{
-    display: none;
-}
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-
-.desktop-menu{
-    display: block;
-}*/
