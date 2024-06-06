@@ -6,7 +6,58 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*HEADER RULES*/
+
+header{
+    background-color: rgb(0, 174, 255);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-col{
+    width: 50%;
+}
+
+.content{
+    margin: 10px;
+}
+
+.unstyled-menu{
+    list-style-type: none;
+    display: flex;
+}
+
+.unstyled-menu li{
+    margin: 0px 15px;
+}
+
+.unstyled-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.desktop-menu{
+    display: none;
+}
 
 /*MAIN RULES*/
 
@@ -14,8 +65,31 @@
 
 /*UTILITY RULES*/
 
+.float-end{
+    float: right;
+}
+
+.val-mid{
+    vertical-align: middle;
+}
+
 /*ID*/
+
+/*SIMBOLS RULES*/
+
+.fa-bars{
+    font-size: 30px;
+}
 
 /*SCREEN 768PX RULES*/
 
+
 /*SCREEN 1200PX RULES*/
+
+/*.mobile-menu{
+    display: none;
+}
+
+.desktop-menu{
+    display: block;
+}*/
