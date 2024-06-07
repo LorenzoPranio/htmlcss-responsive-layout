@@ -90,6 +90,44 @@ header{
     background-color: white;
 }
 
+.img-phone{
+    width: 100%;
+}
+
+.planning-img{
+    width: 100%;
+}
+
+.circle-photo{
+    position: relative;
+    width: 375px;
+    height: 375px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.circle-photo img{
+    width: auto;
+    height: 100%;
+    margin-left: -100px;
+}
+
+.circle-photo-about{
+    border-radius: 50%;
+    width: 70%;
+}
+
+
+/*FOOTER RULES*/
+
+.bg-black{
+    background-color: rgb(51, 51, 51);
+}
+
+/*TEXT RULES*/
+
 .italic{
     font-style: italic;
 }
@@ -115,6 +153,18 @@ header{
     margin: 20px 120px;
 }
 
+.text-bg-violet{
+    background-color: rgb(151, 146, 228);
+    border-radius: 20px;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+.text-more{
+    margin: 20px 245px 20px 25px;
+}
+
 .text-cl-blue{
     color: rgb(0, 132, 253);
 }
@@ -131,35 +181,9 @@ header{
     color: rgb(151, 146, 228);
 }
 
-.img-phone{
-    width: 100%;
-}
-
-.planning-img{
-    width: 100%;
-}
-
-.circle-photo{
-    position: relative;
-    width: 375px;
-    height: 375px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-left: 10px;
+.number-text{
+    font-size: 40px;
     margin-bottom: 20px;
-}
-
-.circle-photo img{
-    width: auto;
-    height: 100%;
-    margin-left: -100px;
-}
-
-
-/*FOOTER RULES*/
-
-.bg-black{
-    background-color: rgb(51, 51, 51);
 }
 
 /*UTILITY RULES*/
@@ -218,6 +242,10 @@ header{
 .fa-quote-right{
     margin-left: 8px;
     font-size: 20px;
+}
+
+.fa-linkedin{
+    margin: 0px 8px;
 }
 
 
