@@ -83,10 +83,6 @@ header{
     border-radius: 50px;
 }
 
-.bg-jumbo{
-    margin: 40px 0px;
-}
-
 .section{
     padding: 20px 0px;
 }
@@ -329,6 +325,33 @@ header{
     }
     .dim-700{
         width: 700px;
+    }
+    .img-phone{
+        width: 70%;
+    }
+    .circle-photo{
+        position: relative;
+        width: 175px;
+        height: 175px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .circle-photo img{
+        width: auto;
+        height: 100%;
+        margin-left: -50px;
+    }
+    .fa-arrow-down{
+        margin-left: 330px;
+    }
+    .text-more{
+        margin-right: 150px;
+        margin-left: 0px;
+    }
+    .img-container{
+        width: 100%;
     }
 }
 
