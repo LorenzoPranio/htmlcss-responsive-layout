@@ -129,7 +129,19 @@ header{
 
 .circle-photo-about{
     border-radius: 50%;
+    width: 100%;
+}
+
+.img-container{
+    position: relative;
     width: 70%;
+}
+
+.quote{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: rgb(151, 146, 228);
 }
 
 
@@ -239,7 +251,9 @@ header{
     margin-top: 20px;
 }
 
-
+.mar-top-60{
+    margin-top: 60px;
+}
 
 /*ID*/
 
@@ -284,6 +298,11 @@ header{
     margin-left: 8px;
     font-size: 20px;
 }
+
+.quote .fa-quote-left{
+    font-size: 80px;
+}
+
 
 .fa-linkedin{
     margin: 0px 8px;
