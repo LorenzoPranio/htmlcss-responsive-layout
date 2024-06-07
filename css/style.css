@@ -24,10 +24,9 @@ header{
     margin: 0 auto;
 }
 
-.row{
+.row-header{
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0px;
 }
 
 .header-col{
@@ -50,14 +49,28 @@ header{
 .unstyled-menu li a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .desktop-menu{
     display: none;
 }
 
+.text-bg-white{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 12px;
+    text-align: center;
+}
+
+
 /*MAIN RULES*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
 
 .col-100{
     width: 100%;
@@ -209,6 +222,10 @@ header{
 }
 
 /*ID*/
+
+#text-cl-black{
+    color: black;
+}
 
 /*SIMBOLS RULES*/
 
